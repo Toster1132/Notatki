@@ -1,0 +1,197 @@
+====== Podstawowa Struktura ======
+
+
+
+<!DOCTYPE html>     <!--Definiowanie czego się używa-->
+
+<html>              <!--Sekcja główna całej strony-->
+    <head>
+                    <!--Sekcja Head,metadata itp-->
+    </head>
+    <body>
+                    <!--Sekcja Body, Główna strona-->
+    </body>
+</html>
+
+
+
+====== Metadata ======          <!--Znacznik <meta> z atrybutami. Bez cwela co domyka-->
+
+
+
+<meta charset="UTF-8">                                                      <!--Ustawienie Polskich znaków (I w sumie każdych innych narodowości)-->
+<meta name="keywords" content="Chuj, stolec, kał strona dla koprofili">     <!--Słowa kluczowe strony-->
+<meta name="description" content="Opis">                                    <!--Opis strony-->
+<meta name="author" content="Marcin Mewa">                                  <!--Autor-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">      <!--Żeby się strona na telefonach nie rozpierdalała jak siwy na komendzie-->
+
+
+
+====== Coś co widać ======
+
+
+
+<mark></mark>                               <!--Zaznacza tekst (jakby zakreślaczem)-->
+
+<small></small>                             <!--Lekko zmniejsza tekst-->
+
+<del></del>                                 <!--Przekreślenie, usuwanie czegoś i danie w zamian <ins>-->
+
+<ins></ins>                                 <!--Podkreślenie, wstawiane "po" <del>, JEDNAK nie jest używane ze względu na skojarzenie z HREF'em-->
+
+<sub></sub>                                 <!--Dolny okres-->
+
+<sup></sup>                                 <!--Górny okres-->
+
+<q></q>                                     <!--Cytowanie Małego Kawałka Tekstu,Dodaje Cudzysłowy-->
+
+<br>                                        <!--Wcięcia w tekscie, forsowanie ENTERA-->
+
+<wbr>                                       <!--Wcięcia w tekscie, jednak gdy przeglądarka zdecyduje że jest ono potrzebne-->
+
+<strong></strong>                           <!--Pogrubienie tekstu-->
+
+<b></b>                                     <!--Pogrubienie tekstu, to samo co <strong> ale powinno być używane w ostateczności-->
+
+<span></span>                               <!--Takie same jak <div> ale Nie jest blokowy, używany do stylizacji CSS'em-->
+
+
+
+<ruby></ruby>                               <!--Tekst główny z <rt> na górze-->
+
+<rt></rt>                                   <!--Mniejszy tekst nad <ruby>, z reguły wymowa fonetyczna-->
+
+
+
+<img src="cos.png" alt="Opis cosia" height="200" width="200">         <!--Wstawia obraz-->
+
+<video height="200" width="200" controls>                             <!--Wstawia Plik Wideo-->
+    <source src="chuj.mp4" type="video/mp4">                          <!--Obsługuje: .mp4 .WebM .ogg-->
+</video>                                                              <!--safari nie wspiera .ogg-->
+
+<audio controls>                                                      <!--Wstawia Plik Audio-->
+    <source src="chuj.ogg" type="audio/ogg">                          <!--Obsługuje: .mp3 .wav .ogg-->
+</audio>                                                              <!--safari nie wspiera .ogg-->
+
+
+
+
+====== Głównie Semantyka :nerd: ======
+
+
+
+<abbr></abbr>                <!--Oznaczenie skrótów,Przerywane podkreślenie-->
+
+<time></time>                <!--Definiowanie Czasu, Używane często z atrybutem "datetime"-->
+
+<code></code>                <!--Definiowanie Kodu programistycznego, lub jego części-->
+
+<var></var>                  <!--Definiowanie obecności Zmiennej na stronie,Wyobraź sobie delte w zadaniu z matmy: a,b,c będą tym określone-->
+
+<samp></samp>                <!--Prezentownie całego/części outputu z jakiegoś programu-->
+
+<kbd></kbd>                  <!--Lekko mniejsza czcionka, Oznacza się tym klawisze z klawiatury-->
+
+
+
+====== Elementy Blokowe ======              <!--W sumie to chuj wi co to xd-->
+
+
+
+<p></p>                                     <!--Paragraf, podstawowy tekst-->
+
+<div></div>                                 <!--Definiuje SEKCJE/BLOK na stronie czylli dzieli ją na elementy blokowe-->
+
+<figure></figure>                           <!--Takie gówno co dajesz na obrazy by gugul muk szukać-->
+
+<figcaption></figcaption>                   <!--Używane z <figure>, daje opis tego kloca-->
+
+<hr>                                        <!--Linia W Bok, zmiana tematu -->
+
+<blockquote cite="Link do">                 <!--Cytowanie Dużego Bloku Tekstu, <q> na sterydach-->
+    Pierdolenie o szopenie z linku
+</blockquote>
+
+<pre></pre>                                 <!--Tekst Predefiniowany-->
+
+<article></article>                         <!--Używane do grupowania "artykułów", dzielenia tekstu-->
+
+<header></header>                           <!--Również grupowanie lecz mniej ważne od <article>-->
+
+<footer></footer>                           <!--Stopka,Zawiera min. Copyright,dane kontaktowe,autora,dokumenty powiązane-->
+
+<address></address>                         <!--Zawiera dane kontaktowe, z reguły w stopce-->
+
+<nav></nav>                                 <!--Używany do nawigacji po stronie, jednak tylko w jej głównych aspektach, zawsze z atrybutem href-->
+
+<h1></h1>                                   <!--Nagłówek Największy, Zaczynasz zawsze od h1 i używasz każdy max raz-->
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>                                   <!--Nagłówek Najmniejszy-->
+
+
+
+====== Listy(Elem. Blok.) ======
+
+
+
+<ul>                <!--Lista Nie-Numerowana-->
+    <li></li>       <!--Element Listy-->
+    <li></li>
+</ul>
+
+<ol>                <!--Lista Numerowana-->
+    <li></li>       <!--Element Listy-->
+    <li></li>
+</ol>
+
+<dl>                <!--Lista Z Opisami-->
+    <dt></dt>       <!--Element Główny-->
+    <dd></dd>       <!--Opis Elementu-->
+</dl>
+
+                    <!--disc,circle,square-->
+                    <!--Hierarchia Znaków Listy W Liście-->
+
+
+
+====== Kursywa ======
+
+
+
+<dfn></dfn>                                         <!--Kursywa, Oznaczenie czegoś co zaraz zostanie opisane/zdefiniowane-->
+
+<em></em>                                           <!--Kursywa, Coś Wyróżnione W Zdaniu-->
+
+<i></i>                                             <!--Kursywa,Inaczej Napisane Coś, Inny Głos/wydzwięk-->
+
+<cite></cite>                                       <!--Kursywa, Cytowanie dzieła, pracy czegoś konkretnego--> 
+
+
+
+====== Reszta ======
+
+
+
+<a href="https://chujdupacipa.html"></a>                        <!--A używane do dawania linków z <href>'em-->
+
+    <a href="chujdupacipa">
+        <img src="marcin.png">                                  <!--To samo ale z klikalnym obrazkiem-->        
+    </a>
+    
+
+
+====== ATRYBUTY ======
+
+
+
+style                               <!--styling czegoś, raczej się robi w css'ie ale w razie co jest jako atrybut-->
+start                               <!--Przy listach numerowanych, listy zaczyną się od zdefiniowanej liczby-->
+title                               <!--Pokazuje tekst jak najedziesz na element z tym-->
+href                                <!--Link/hiperłącze-->
+cite                                <!--Cytowanie oryginału w <blockquote>-->
+src                                 <!--źródło-->
+datetime                            <!--HH:MM:SS   YYYY-MM-DD   +HH:MM   -HH:MM-->
+                                    <!--2013-12-25T11:12-08:00   HHHH-MM-DDTHH-MM-HH:MM-->
