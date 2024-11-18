@@ -15,6 +15,24 @@
 
 
 
+====== Semantyczny Wzór Strony ======
+
+
+
+|-----------------------|
+|       <header>        |
+|-----------------------|
+|        <nav>          |
+|-----------------------|
+|   <section> |         |
+|-------------| <aside> |
+|   <article> |         |
+|-----------------------|
+|       <footer>        |
+|-----------------------|
+
+
+
 ====== Metadata ======          <!--Znacznik <meta> z atrybutami. Bez cwela co domyka-->
 
 
@@ -28,6 +46,20 @@
 
 
 ====== Elementy Blokowe ======
+
+
+
+<header></header>                           <!--Semantycznie oznacza cały NAGŁÓWEK strony-->
+
+<nav></nav>                                 <!--Używany do nawigacji po stronie, jednak tylko w jej głównych aspektach, zawsze z atrybutem href-->
+
+<section></section>                         <!--Semantycznie nie jest to element samodzielny,używany do grupowania powiązanych elementów, część większej części tekstu-->
+
+<article></article>                         <!--Semantycznie to treść samodzielna, niezależna od reszty dokumentu-->
+
+<aside></aside>                             <!--Semantycznie oznacza "sidebar" strony, znajduje się w nim tekst uzupełniający kontekst-->
+
+<footer></footer>                           <!--Semantyucznie ozancza całą STOPKE strony,Zawiera min. Copyright,dane kontaktowe,autora,dokumenty powiązane-->
 
 
 
@@ -47,17 +79,8 @@
 
 <pre></pre>                                 <!--Tekst Predefiniowany-->
 
-<article></article>                         <!--Używane do grupowania "artykułów", dzielenia tekstu-->
-
-<header></header>                           <!--Również grupowanie lecz mniej ważne od <article>, Semantycznie oznacza cały NAGŁÓWEK strony-->
-
-<footer></footer>                           <!--Stopka,Zawiera min. Copyright,dane kontaktowe,autora,dokumenty powiązane ORAZ semantycznie oznacza STOPKE strony-->
-
 <address></address>                         <!--Zawiera dane kontaktowe, z reguły w stopce-->
 
-<nav></nav>                                 <!--Używany do nawigacji po stronie, jednak tylko w jej głównych aspektach, zawsze z atrybutem href-->
-
-<aside></aside>                             <!--Z reguły "sidebar" strony, oznacza tekst uzupełniający-->
 
 <h1></h1>                                   <!--Nagłówek Największy, Zaczynasz zawsze od h1 i używasz każdy max raz-->
 <h2></h2>
