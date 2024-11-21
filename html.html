@@ -129,6 +129,26 @@
 
 
 
+====== Głównie Semantyka :nerd: ======
+
+
+
+<abbr></abbr>                                                       <!--Oznaczenie skrótów,Przerywane podkreślenie-->
+
+<time></time>                                                       <!--Definiowanie Czasu, Używane często z atrybutem "datetime"-->
+<time datetime="2024:09:12T12:12+02:00"></time>                     <!--HH:MM:SS   YYYY-MM-DD   +HH:MM   -HH:MM-->
+                                                                    <!--2013-12-25T11:12-08:00   HHHH-MM-DDTHH-MM-HH:MM-->
+
+<code></code>                                                       <!--Definiowanie Kodu programistycznego, lub jego części-->
+
+<var></var>                                                         <!--Kursywa,Definiowanie obecności Zmiennej Programistycznej albo matematycznej-->
+
+<samp></samp>                                                       <!--Prezentownie całego/części outputu z jakiegoś programu-->
+
+<kbd></kbd>                                                         <!--Lekko mniejsza czcionka, Oznacza się tym klawisze z klawiatury-->
+
+
+
 ====== Kursywa ======
 
 
@@ -143,7 +163,7 @@
 
 
 
-====== Coś co widać ======
+====== Reszta ======
 
 
 
@@ -179,46 +199,22 @@
 
 
 
-<img src="cos.png" alt="Opis cosia" height="200" width="200">         <!--Wstawia obraz, najlepiej w formacie .png-->
-
-<video height="200" width="200" controls>                             <!--Wstawia Plik Wideo-->
-    <source src="chuj.mp4" type="video/mp4">                          <!--Obsługuje: .mp4 .WebM .ogg-->
-</video>                                                              <!--safari nie wspiera .ogg-->
-
-<audio controls>                                                      <!--Wstawia Plik Audio-->
-    <source src="chuj.ogg" type="audio/ogg">                          <!--Obsługuje: .mp3 .wav .ogg-->
-</audio>                                                              <!--safari nie wspiera .ogg-->
-
-
-
-====== Głównie Semantyka :nerd: ======
-
-
-
-<abbr></abbr>                <!--Oznaczenie skrótów,Przerywane podkreślenie-->
-
-<time></time>                <!--Definiowanie Czasu, Używane często z atrybutem "datetime"-->
-
-<code></code>                <!--Definiowanie Kodu programistycznego, lub jego części-->
-
-<var></var>                  <!--Kursywa,Definiowanie obecności Zmiennej Programistycznej albo matematycznej-->
-
-<samp></samp>                <!--Prezentownie całego/części outputu z jakiegoś programu-->
-
-<kbd></kbd>                  <!--Lekko mniejsza czcionka, Oznacza się tym klawisze z klawiatury-->
-
-
-
-====== Reszta ======
-
-
-
 <a href="https://chujdupacipa.html"></a>                        <!--A używane do dawania linków z <href>'em-->
-
 <a href="chujdupacipa">
     <img src="marcin.png">                                      <!--To samo ale z klikalnym obrazkiem-->        
 </a>
-    
+
+
+<img src="cos.png" alt="Opis cosia" height="200" width="200">         <!--Wstawia obraz, najlepiej w formacie .png-->
+
+<video height="200" width="200" controls>                             <!--Wstawia Plik Wideo-->
+    <source src="chuj.mp4" type="video/mp4">                          <!--Obsługuje głównie choć zależy od codecu : .mp4 .WebM .ogg-->
+</video>
+
+<audio controls>                                                      <!--Wstawia Plik Audio-->
+    <source src="chuj.ogg" type="audio/ogg">                          <!--Obsługuje głównie choć zależy od codecu : .mp3 .wav .ogg-->
+</audio>
+
 
 
 ====== ATRYBUTY ======        DO REWORKA xd
@@ -229,9 +225,13 @@ class                               <!--Definiowanie "klasy" do CSS'a-->
 
 style                               <!--styling czegoś, raczej się robi w css'ie ale w razie co jest jako atrybut-->
 
+title                               <!--Pokazuje tekst jak najedziesz na element z tym-->
+
+    
+
+
 start                               <!--Przy listach numerowanych, listy zaczyną się od zdefiniowanej liczby-->
 
-title                               <!--Pokazuje tekst jak najedziesz na element z tym-->
 
 href                                <!--Link/hiperłącze-->
 
@@ -239,5 +239,4 @@ cite                                <!--Cytowanie oryginału w <blockquote>-->
 
 src                                 <!--źródło-->
 
-datetime                            <!--HH:MM:SS   YYYY-MM-DD   +HH:MM   -HH:MM-->
-                                    <!--2013-12-25T11:12-08:00   HHHH-MM-DDTHH-MM-HH:MM-->
+
