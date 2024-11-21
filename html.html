@@ -207,31 +207,33 @@
 
 <img src="cos.png" alt="Opis w razie braku img" height="200" width="200">         <!--Wstawia obraz, najlepiej w formacie .png-->
 
-<video height="200" width="200" controls="controls">                              <!--Wstawia Plik Wideo-->
+<video height="200" width="200" controls="controls" preload="preload">            <!--Wstawia Plik Wideo-->
     <source src="chuj.mp4" type="video/mp4">                                      <!--Obsługuje głównie choć zależy od codecu : .mp4 .WebM .ogg-->
 </video>                                                                          <!--Reszta: https://www.w3.org/html/wiki/Elements/video-->
 
-<audio controls="controls" autoplay="autoplay" loop="loop">                       <!--Wstawia Plik Audio-->
+<audio controls="controls" autoplay="autoplay" loop="loop" preload="preload">     <!--Wstawia Plik Audio-->
     <source src="chuj.ogg" type="audio/ogg">                                      <!--Obsługuje głównie choć zależy od codecu : .mp3 .wav .ogg-->
 </audio>                                                                          <!--Reszta: https://www.w3.org/html/wiki/Elements/audio-->
 
 
 
-====== ATRYBUTY ======        DO REWORKA xd
+====== ATRYBUTY ======
 
 
 
-class                               <!--Definiowanie "klasy" do CSS'a-->
+class=""                               <!--Definiowanie "klasy" do CSS'a-->
 
-style                               <!--styling czegoś, raczej się robi w css'ie ale w razie co jest jako atrybut-->
+style=""                               <!--styling czegoś, raczej się robi w css'ie ale w razie co jest jako atrybut-->
 
-title                               <!--Pokazuje tekst jak najedziesz na element z tym-->
+title=""                               <!--Pokazuje tekst jak najedziesz na element z tym-->
+
+href=""                                <!--Link/Hiperłącze, Może mieć parametr target="" z , _blank; _self; _parent; _top -->
+
+       DÓŁ DO REWORKA xd 
+
 
     
-
-
 start                               <!--Przy listach numerowanych, listy zaczyną się od zdefiniowanej liczby-->
-
 
 href                                <!--Link/hiperłącze-->
 
