@@ -1,6 +1,8 @@
+
 https://www.w3.org/html/wiki/Elements
 
-Notatka TYLKO do przypomnienia synatx'u UwU OwO TwT
+Notatka TYLKO do przypomnienia syntax'u UwU OwO TwT
+
 ====== Podstawowa Struktura ======
 
 
@@ -174,15 +176,11 @@ Notatka TYLKO do przypomnienia synatx'u UwU OwO TwT
 
 <small></small>                                                         <!--Lekko zmniejsza tekst-->
 
-<del></del>                                                             <!--Przekreślenie, usuwanie czegoś i danie w zamian <ins>-->
-
-<ins></ins>                                                             <!--Podkreślenie, wstawiane "po" <del>, JEDNAK nie jest używane ze względu na skojarzenie z HREF'em-->
-
 <sub></sub>                                                             <!--Dolny index-->
 
 <sup></sup>                                                             <!--Górny index-->
 
-<q></q>                                                                 <!--Cytowanie Małego Kawałka Tekstu,Dodaje Cudzysłowy-->
+<q cite=""></q>                                                                 <!--Cytowanie Małego Kawałka Tekstu,Dodaje Cudzysłowy-->
 
 <br>                                                                    <!--Wcięcia w tekscie, forsowanie ENTERA-->
 
@@ -196,7 +194,7 @@ Notatka TYLKO do przypomnienia synatx'u UwU OwO TwT
 
 <iframe src="" title=""></iframe>                                       <!--Okno w oknie-->
 
-<script></script>                                                       <!--Pozwala dodać kod JavaScripta na stronę, bezpośrednio-->
+<script src="" type=""></script>                                                       <!--Pozwala dodać kod JavaScripta na stronę, bezpośrednio-->
 
 <embed type="" src="" width="" heihgt="">                               <!--Głównie do dodawania martywch animacji Flashowych (.swf) xd-->
 
@@ -213,7 +211,7 @@ Notatka TYLKO do przypomnienia synatx'u UwU OwO TwT
 
 
 
-<a href="https://chujdupacipa.html"></a>                                          <!--A używane do dawania linków z <href>'em-->
+<a rel="" href=""></a>                                          <!--A używane do dawania linków z <href>'em-->
 
 <a href="">
     <img src="">                                                        <!--To samo ale z klikalnym obrazkiem-->        
@@ -237,8 +235,19 @@ Notatka TYLKO do przypomnienia synatx'u UwU OwO TwT
     <source src="chuj.ogg" type="audio/ogg">                                      <!--Obsługuje głównie choć zależy od codecu : .mp3 .wav .ogg-->
 </audio>                                                                          <!--Reszta: https://www.w3.org/html/wiki/Elements/audio-->
 
+====== Edytorskie ======
 
 
+
+<del></del>                                                             <!--Przekreślenie, usuwanie czegoś i danie w zamian <ins>-->
+
+<ins></ins>                                                             <!--Podkreślenie, wstawiane "po" <del>, JEDNAK nie jest używane ze względu na skojarzenie z HREF'em-->
+
+cite=""                                                                 <!--Cytowanie dzieła które zostało potraktowane <ins> lub <del>-->
+
+datetime=""                                                             <!--Precyzowanie kiedy zmiany za pomocą <ins> oraz <del> zostały zrobione-->
+    
+    
 ====== ATRYBUTY OGÓLNE ======
 
 
@@ -261,4 +270,6 @@ cite=""                                <!--Cytowanie oryginału w <blockquote>--
 
 src=""                                 <!--źródło-->
 
+rel=""
 
+srcset=""
