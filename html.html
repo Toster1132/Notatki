@@ -57,11 +57,12 @@ Notatka TYLKO do przypomnienia syntax'u UwU OwO TwT
 
 <meta http-equiv="creation date" content="data wykonania">                  <!--Dodaje date wykonania strony-->
 
-<meta name="robots" content="noindex">                                             <!--By strona mogła zostać indexowana przez roboty google'a-->
-                                                                            <!--Reszta tu: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag-->
-
 <meta http-equiv="refresh" content="30">                                    <!--Odświeżenie strony co "30" sekund-->
 
+    
+<meta name="robots" content="">              <!--By strona mogła zostać indexowana przez roboty google'a-->
+                                             <!--content=" noindex ; index ; nofollow ; follow ; none -->
+                                             <!--Reszta tu: https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag-->
 
 
 ====== Elementy Blokowe ====== <!--Jak nie będziemy trzymać się ramy, to się obsramy-->
@@ -90,7 +91,7 @@ Notatka TYLKO do przypomnienia syntax'u UwU OwO TwT
 
 <figcaption></figcaption>                   <!--Opis Obrazu,Słowa generalnie OPIS używany w <figure>-->
 
-<hr/>                                        <!--Linia W Bok, zmiana tematu -->
+<hr>                                        <!--Linia W Bok, zmiana tematu -->
 
 <blockquote cite="Link do">                 <!--Cytowanie Dużego Bloku Tekstu, <q> na sterydach-->
     Pierdolenie o szopenie z linku
@@ -180,7 +181,7 @@ Notatka TYLKO do przypomnienia syntax'u UwU OwO TwT
 
 <sup></sup>                                                             <!--Górny index-->
 
-<q cite=""></q>                                                                 <!--Cytowanie Małego Kawałka Tekstu,Dodaje Cudzysłowy-->
+<q cite=""></q>                                                         <!--Cytowanie Małego Kawałka Tekstu,Dodaje Cudzysłowy-->
 
 <br>                                                                    <!--Wcięcia w tekscie, forsowanie ENTERA-->
 
@@ -194,8 +195,10 @@ Notatka TYLKO do przypomnienia syntax'u UwU OwO TwT
 
 <iframe src="" title=""></iframe>                                       <!--Okno w oknie-->
 
-<script src="" type=""></script>                                                       <!--Pozwala dodać kod JavaScripta na stronę, bezpośrednio-->
+<script src="" type=""></script>                                        <!--Pozwala dodać kod JavaScripta na stronę, bezpośrednio-->
 
+<noscript></noscript>                                                   <!--Wyświetla tekst w razie włączonego noscript'a-->
+    
 <embed type="" src="" width="" heihgt="">                               <!--Głównie do dodawania martywch animacji Flashowych (.swf) xd-->
 
 <canvas height="" width="" id=""></canvas>                              <!--Używany do "malowania" skryptami, najczęsciej JavaScript-->
@@ -251,6 +254,9 @@ datetime=""                                                             <!--Prec
 ====== ATRYBUTY OGÓLNE ======
 
 
+hidden=""
+
+id=""
 
 class=""                               <!--Definiowanie "klasy" do CSS'a-->
 
