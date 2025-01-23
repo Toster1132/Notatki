@@ -137,6 +137,25 @@ Notatka TYLKO do przypomnienia syntax'u i rewizji wiedzy UwU OwO TwT
 
 
 
+====== Tabelki ======
+
+
+
+<table>                                            <!--Rozpoczyna tabelkę-->
+    <caption></caption>                            <!--Oznacza "tytuł" tabelki, musi zostać wstawione od razu po <table> oraz jest WYCENTROWANY NAD TABELĄ-->
+    <th></th>                                      <!--Oznacza kolumne w tabeli, I SŁUŻY NA OPIS DANYCH NIŻEJ WARTOŚCI-->
+    <tr></tr>                                      <!--Oznacza rządek/wiersz w tabeli-->
+    <td></td>                                      <!--Oznacza kolumne w tabeli, I SŁUŻY NA WARTOŚCI-->
+</table>
+
+<thead></thead>                                    <!--Służą do grupowania tabelki analogicznie do całej strony w html'u-->
+<tbody></tbody>
+<tfoot></tfoot>
+
+colspan="" & rowspan=""                            <!--Za pomocą liczb definiuje ile "komórek" ma zając jedna konkretna komórka, analogicznie prefix "col" do kolumn, "row" do wierszy.-->
+                                                   <!--MOŻNA UŻYWAĆ TYLKO BEZ CSS'A!-->
+    
+    
 ====== Głównie Semantyka :nerd: ======
 
 
@@ -209,7 +228,6 @@ Notatka TYLKO do przypomnienia syntax'u i rewizji wiedzy UwU OwO TwT
 <object type="application/x-java-applet" height="" width=""></object>   <!--Głównie do dodawania appletów javy-->
     <param name="" value="">                                            <!--Parametry dotyczące <object>-->
 
-
 <ruby></ruby>                               <!--Tekst główny z <rt> na górze-->
 
 <rt></rt>                                   <!--Mniejszy tekst nad <ruby>, z reguły wymowa fonetyczna-->
@@ -258,7 +276,7 @@ datetime=""                                                             <!--Prec
 
 hidden                                 <!--Atrybut który ukrywa dany element przed wyświetlaniem go na stronie-->
 
-id=""                                  <!--Unikatowe ID do używania z CSS'em i JS'em-->
+id=""                                  <!--Do tworzenia kotwic, oraz oznaczania specyficznych elementów do CSS'a-->
 
 class=""                               <!--Definiowanie selektora do CSS'a-->
 
