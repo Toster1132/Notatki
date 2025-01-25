@@ -1,1 +1,32 @@
-:)
+/*Selektory CSS*/
+
+* {
+}
+/*Dla wszystkich elementów domyślnie*/
+
+div {
+}
+/*Dla wszystkich div'ów*/
+
+div p {
+}
+/*Dla wszytkich <p> które są w divie*/
+
+.przyklad {
+}
+/*Dla wszytkich znaczników ze zdefiniowanym class="przyklad"*/
+
+div.przyklad {
+}
+/*Dla wszystkich div'ów z class="przyklad"*/
+
+#przyklad {
+}
+/*Dla elementu z UNIKALNYM id="przyklad"*/
+
+div,
+h2,
+#przyklad,
+h6.przyklad {
+}
+/*Dla grupy wszystkich wymienionych znaczników, class="" oraz id=""*/
