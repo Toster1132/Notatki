@@ -39,6 +39,14 @@ for() {
 
 
 
+vector<int>x = {3, 2};
+vector<int>vi(6);
+v.size()
+push_back()
+sort()
+
+
+
 /*Jakieś funkcje, sklejasz akcje?*/
 
 sqrt() //pierwiastek kwadratowy
