@@ -39,6 +39,14 @@ class zla_funkcja {};
 if() throw zla_funkcja{};
 
 
+
+try {
+}
+catch() {
+}
+
+
+
 while() {
 }
 
