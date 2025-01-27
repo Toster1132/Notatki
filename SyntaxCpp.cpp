@@ -33,6 +33,12 @@ return 'b';
 
 
 
+
+class zla_funkcja {};
+
+if() throw zla_funkcja{};
+
+
 while() {
 }
 
