@@ -24,6 +24,9 @@ div.przyklad {
 }
 /*Dla elementu z UNIKALNYM id="przyklad"*/
 
+::placeholder {
+}
+
 div,
 h2,
 #przyklad,
