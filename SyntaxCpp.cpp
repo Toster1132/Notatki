@@ -4,6 +4,13 @@ string przyklad = zero; // "zero"
 char przyklad = z // 'z'
 bool przyklad = false; // false
 
+& - AND
+| - OR
+^ - XOR
+~ - NOT
+<< - lewo x pozycji
+>> - prawo x pozycji
+
 /*
 Tylko syntax, nic kurde faja innego
 */
@@ -56,7 +63,7 @@ for() {
 // () <- np, zmienna;zakres;iteracja
 }
 
-
+decltype(x1) x2; /* useless kloc */ 
 
 vector<int>x = {3, 2};
 vector<int>vi(6);
