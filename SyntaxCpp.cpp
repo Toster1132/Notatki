@@ -11,6 +11,8 @@ bool przyklad = false; // false
 << - lewo x pozycji
 >> - prawo x pozycji
 
+sizeof()
+
 /*
 Tylko syntax, nic kurde faja innego
 */
