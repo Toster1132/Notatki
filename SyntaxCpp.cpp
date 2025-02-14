@@ -11,7 +11,6 @@ bool przyklad = false; // false
 << - lewo x pozycji
 >> - prawo x pozycji
 
-sizeof()
 
 /*
 Tylko syntax, nic kurde faja innego
@@ -78,4 +77,4 @@ sort()
 /*Jakieś funkcje, sklejasz akcje?*/
 
 sqrt() //pierwiastek kwadratowy
-square() //do kwadratu
+sizeof()
