@@ -10,71 +10,71 @@ bool przyklad = false; // false
 ~ - NOT
 << - lewo x pozycji
 >> - prawo x pozycji
+// awooga
+// LOSOWE NOTATKI BEZ KONTEKSTU BEZ WYTLUMACZENIA SA BO SA PIERDOL SIE
+// awooga
+  int tab[5] = {2,35,2,4,8};
 
+  for(int i =0; i<5 -1;i++)
+  {
+      for(int j = 0; j<5 - i -1; j++)
+      if(tab[j] > tab[j+1])
+      swap(tab[j], tab[j+1]);
+  }
+  
+  for(int i : tab)
+  {
+      cout << i << endl;
+  }
+//awooga
+    vector<int>v;
+    int x = 0;
+    int z = 5;
+    for(int i = 0; i < 4;i++)
+    {
+        cin >> x;
+        v.push_back(x);
+    }
+    for(int i = 0; i <z -1;i++)
+    {
+        cout << "tabela - " << v[i] << endl;
+    }
+    cout << "Suma " << v.size() << endl;
+//awooga
+    int q = 0;
+    cin >> q;
+    int tab[q];
 
-/*
-Tylko syntax, nic kurde faja innego
-*/
-switch() {
-  case 1: case 2:
-  break;
+    for(int i = 0; i<q;i++)
+    {
+        cin >> tab[i];
+    }
+    for(int i =0;i<q;i++)
+    {
+        cout << tab[i] << endl;
+    }
+//awooga
+    double a = NULL;
+    double b = NULL;
 
-  case 3: case 4:
-  break;
+    cin >> a >> b;
 
-  default:
-  break;
-}
+    double *pole = nullptr;
+    pole = new double(a*b);
 
+    cout << *pole << endl;
 
+    delete pole;
+//awooga
+    const int m = 3;
+    const int n = 2;
 
-if()
+    int tab1[m][n] = {{1,2},{3,4},{5,6}};
 
-  else if ()
-
-  else
-
-
-
-if() return 'y';
-return 'b';
-
-
-
-
-class zla_funkcja {};
-
-if() throw zla_funkcja{};
-
-
-
-try {
-}
-catch() {
-}
-
-
-
-while() {
-}
-
-
-
-for() {
-// () <- np, zmienna;zakres;iteracja
-}
-
-decltype(x1) x2; /* useless kloc */ 
-
-vector<int>x = {3, 2};
-vector<int>vi(6);
-v.size()
-push_back()
-sort()
-
-
-
-/*Jakieś funkcje, sklejasz akcje?*/
-
-sqrt() //pierwiastek kwadratowy
-sizeof()
+    for(int i = 0; i < m;i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            cout << "tab1 " << i << ", " << j << tab1[i][j] << endl;
+        }
+    }
