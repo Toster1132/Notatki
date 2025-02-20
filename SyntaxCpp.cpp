@@ -59,7 +59,7 @@ bool przyklad = false; // false
 
     cin >> a >> b;
 
-    double *pole = nullptr;
+    const double *pole = nullptr;
     pole = new double(a*b);
 
     cout << *pole << endl;
