@@ -78,3 +78,29 @@ bool przyklad = false; // false
             cout << "tab1 " << i << ", " << j << tab1[i][j] << endl;
         }
     }
+//awooga
+    const int m = 4;
+    const int n = 2;
+    int tablica[m][n] = {{1,2},{4,5},{8,2},{22,3}};
+
+    int minimum = 0;
+    int maximum = 0;
+
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if((i == 0) && (j == 0))
+            {
+                minimum = tablica[i][j];
+                maximum = tablica[i][j];
+            }
+            else
+            {
+                if(tablica[i][j] > maximum) maximum = tablica[i][j];
+                if(tablica[i][j] < minimum) minimum = tablica[i][j];
+            }
+        }
+    }
+    cout << "najmniejszy el. tab: "<< minimum << endl;
+    cout << "najwiekszy el. tab: " << maximum << endl;
