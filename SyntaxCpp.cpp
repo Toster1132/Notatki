@@ -80,27 +80,24 @@ bool przyklad = false; // false
     }
 //awooga
     const int m = 4;
-    const int n = 2;
-    int tablica[m][n] = {{1,2},{4,5},{8,2},{22,3}};
+    int tablica[m] = {1,2,5,8};
 
     int minimum = 0;
     int maximum = 0;
 
     for(int i = 0; i < m; i++)
     {
-        for(int j = 0; j < n; j++)
-        {
-            if((i == 0) && (j == 0))
+            if((i == 0))
             {
-                minimum = tablica[i][j];
-                maximum = tablica[i][j];
+                minimum = tablica[i];
+                maximum = tablica[i];
             }
             else
             {
-                if(tablica[i][j] > maximum) maximum = tablica[i][j];
-                if(tablica[i][j] < minimum) minimum = tablica[i][j];
+                if(tablica[i] > maximum) maximum = tablica[i];
+                if(tablica[i] < minimum) minimum = tablica[i];
             }
-        }
     }
     cout << "najmniejszy el. tab: "<< minimum << endl;
     cout << "najwiekszy el. tab: " << maximum << endl;
+//awooga
